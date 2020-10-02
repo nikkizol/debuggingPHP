@@ -86,7 +86,7 @@ function randomHeroName()
 
     return $randname;
 }
-//randomHeroName();
+
 
 
 echo "Here is the name: " , combineNames();
