@@ -43,7 +43,7 @@ new_exercise(5);
 $arr = [];
 for ($letter = 'a'; $letter <= 'z'; $letter++) {
     if ($letter === 'aa') {
-        break;    /* You could also write 'break 1;' here. */
+        break;
     }
     array_push($arr, $letter);
 }
