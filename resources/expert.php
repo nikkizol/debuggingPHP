@@ -96,6 +96,24 @@ function copyright(int $year) {
 //print the copyright
 echo copyright((int)date('Y'));
 
+new_exercise(8);
+function login(string $email, string $password) {
+    if($email == 'john@example.be' && $password == 'pocahontas') {
+        return 'Welcome John Smith';
+    }
+    return 'No access';
+}
+
+//do not change anything below
+//should great the user with his full name (John Smith)
+echo login('john@example.be', 'pocahontas');
+//no access
+echo "<br/>";
+echo login('john@example.be', 'dfgidfgdfg');
+//no access
+echo "<br/>";
+echo login('wrong@example.be', 'wrong');
+//you can change things again!
 
 
 
